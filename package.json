@@ -1,0 +1,22 @@
+{
+  "name": "amon-common",
+  "version": "1.0.0",
+  "description": "Triton Amon common utilities",
+  "private": true,
+  "author": "Joyent (joyent.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joyent/node-amon-common.git"
+  },
+  "license": "MPL-2.0",
+  "files": [
+    "lib"
+  ],
+  "engines": {
+    "node": ">=0.8"
+  },
+  "dependencies": {
+    "restify": "git+https://github.com/trentm/node-restify.git#7535bb3",
+    "libuuid": "0.1.2"
+  }
+}
