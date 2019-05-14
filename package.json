@@ -1,6 +1,6 @@
 {
   "name": "amon-common",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Triton Amon common utilities",
   "private": true,
   "author": "Joyent (joyent.com)",
@@ -13,10 +13,9 @@
     "lib"
   ],
   "engines": {
-    "node": ">=0.8"
+    "node": ">=6.x"
   },
   "dependencies": {
-    "restify": "git+https://github.com/trentm/node-restify.git#7535bb3",
-    "libuuid": "0.1.2"
+    "restify": "git+https://github.com/trentm/node-restify.git#7535bb3"
   }
 }
