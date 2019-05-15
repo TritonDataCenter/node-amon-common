@@ -16,6 +16,6 @@
     "node": ">=6.x"
   },
   "dependencies": {
-    "restify": "git+https://github.com/trentm/node-restify.git#7535bb3"
+    "verror": "1.10.0"
   }
 }
